@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TareaEnClaseSemana7.Elemento">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Actualizar o Elminar Usuarios"  HorizontalOptions="Center" FontSize="16"/>
+            <Entry x:Name="txtNombre" Placeholder="Ingrese el nombre"/>
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el Usuario"/>
+            <Entry x:Name="txtContrasena" Placeholder="Ingrese la Contraseña" IsPassword="True"/>
+            <Button x:Name ="btnActualizar" Text="Actualizar" Clicked="btnActualizar_Clicked" BackgroundColor="MediumSpringGreen"/>
+            <Button x:Name="btnEliminar" Text ="Eliminar " Clicked="btnEliminar_Clicked" BackgroundColor="Red"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
